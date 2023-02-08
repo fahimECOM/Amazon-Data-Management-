@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+@font-face {
+    font-family: geometria-light;
+    src: url(../Assets/Geometria-Font/Geometria-Light.ttf);
+}
+@font-face {
+    font-family: aceh-light;
+    src: url(../Assets/aceh-www.Dfonts.org/Aceh/DEKSTOP/Aceh-Light.otf);
+}
+
+@font-face {
+    font-family: railway-extrabold;
+    src: url(../Assets/Raleway-Font/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: geomteria-medium;
+    src: url(../Assets/Geometria-Font/Geometria-Medium.ttf);
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    font-family: geometria-light;
+text-decoration: none;
+color: black;
+font-size: 1.4rem;
+}
+nav{
+display: flex;
+justify-content: space-between;
+margin: 1rem 11.3em;
+}
+.nav-right {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+}
+.bg01{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.heading-text-1{
+    font-family: aceh-light;
+    font-weight: 200;
+    font-size: 30px;
+}
+.heading-text-2{
+    font-family: railway-extrabold;
+    font-size: 42px;
+    font-weight: 600;
+}
+.paragraph-text{
+    font-size: 1.8rem;
+    font-family: aceh-light;
+    margin-top: 2rem;
+}
+.content-left{
+    margin: 25rem 11.3em;
+
+}
+.content-left h2{
+    font-size: 30px;
+    font-family: aceh-light;
+    font-weight: 100;
+}
+.content-left h1{
+    font-size: 40px;
+    font-family: railway-extrabold;
+    font-weight: 600;
+    width: 600px;
+}
+.content-left p{
+    font-size: 1.8rem;
+    font-family: aceh-light;
+    width: 600px;
+    margin-top: 2rem;
+    font-weight: 200;
+    width: 550px;
+}
+.card-container{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.card-container .card{
+    width: 172px;
+    font-family: geomteria-medium;
+    
+}
+.card-container .card:not(:first-child){
+    margin: 0 2rem;
+}
+.card-container .card h3{
+font-size: 30px;
+font-weight: 500;
+}
+.card-container .card p{
+    font-size: 20px;
+}
+.hero-link {
+    display: flex;
+    margin: 4rem 0rem;
+}
+
+.hero-link a{
+    font-size: 22px;
+    background-color: #101112;
+    padding: 1rem 4rem;
+    border-radius: 4rem;
+    color: white;
+    font-family: aceh-light;
+
+}
+.hero-link a:not(:first-child){
+    margin: 0rem 4rem;
+}
+#product-section{
+    background-color: white;
+    margin-top: 50rem;
+    padding-bottom: 20rem;
+
+}
+#product-section .container{
+    justify-content: space-between;
+}
+#product-section .container .right{
+    margin-left: 25rem;
+}
+.text-card{
+    position: relative;
+}
+.device-1{
+    position: absolute;
+    top: 30px;
+    left: -100px;
+}
+#product-section h1{
+    margin: 0rem 11.3rem;
+}
+#product-section h2{
+    font-family: railway-extrabold;
+    font-size: 42px;
+    font-weight: 600;
+    width: 350px;
+    margin: 0rem 11.3rem;
+}
+span{
+    color: #0B83FE;
+}
+
+.chart{
+    width: 600px;
+    height: 500px;
+    margin-top: 5rem;
+}
+
+#growth-section{
+   padding: 5rem 0rem;
+    background-color: #AFAFAF;
+  
+}
+#growth-section img{
+    width: 660px;
+    height: 509px;
+}
+#growth-section .container{
+    margin: 0rem 11.3rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#growth-section .container .right{
+    width: 44%;
+    
+}
+
+
+#growth-section .container .right p{
+    font-size: 1.8rem;
+    font-family: aceh-light;
+    margin-top: 2rem;
+}
+#service-section{
+    padding-top: 10rem;
+}
+#service-section .container{
+    display: flex;
+    align-items: center; 
+    margin: 10rem 11.3rem;
+}
+.service-content-left p{
+    width: 55%;
+}
+.container{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 50%;
+}
+.right{
+    width: 50%;
+    height: 50%;
+}
+#begin-container{
+    height: 40vw;
+}
+#begin-container .container .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#begin-container .container .left img{
+    margin-top: 25rem;
+}
+#begin-container .container .right .begin-bg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: #0B83FE;
+    opacity: 1;
+}
+#begin-container .container .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#begin-container .container .right {
+    color: white;
+}
+.text-container{
+    margin-top: 5rem;
+}
+.text-container h2{
+  margin-top:  2rem;
+}
+.text-container h3{
+    margin: 3rem 0rem;
+}
+
+#begin-container .container .right p{
+    font-family: aceh-light;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 1rem;
+    width: 650px;
+}
+#begin-container .container .right a{
+    padding: 1rem 6rem;
+    background-color: white;
+    color: #101112;
+    border-radius: 5rem;
+    font-size: 22px;
+}
+#begin-container .container .right .link-container {
+    margin-top: 4rem;
+}
+#begin-container .container .right .text-container{
+    margin: 10rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#data-management-section{
+    margin: 0rem 11.3rem;
+}
+.thunderbolt{
+    margin-top: 3rem;
+}
+.icon-container{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-container p{
+    font-size: 17px;
+    font-family: geometria-light;
+    text-align: center;
+}
+.icon-container .brand{
+    margin-top: 0.5rem;
+}
+.icon-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+    margin: auto;
+}
+#data-management-section{
+    padding: 5rem 0rem;
+}
+#question-section{
+    margin: 0rem 11.3rem;
+    padding: 5rem 0rem;
+}
+#question-section .container .left h1{
+    width: 400px;
+}
+#question-section .container .left p{
+ color: #AFAFAF;
+ font-size: 20px;
+ font-family: aceh-light;
+ width: 320px;
+ margin-top: 5rem;
+}
+#question-section .container .left{
+    width: 30% !important;
+}
+.rectangle-bg{
+    background-image: url('../Assets/Images/Rectangle\ 1649.png');
+    width: 953px;
+    height: 760px;
+    position: relative;
+}
+.rectangle-bg p{
+    font-family: aceh-light;
+    font-size: 20px;
+    color: #AFAFAF;
+}
+.white-bg-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    right: -100px;
+    padding: 2rem;
+    border-radius: 5rem;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.one{
+    top: 60px;
+}
+.two{
+    top: 160px;
+}
+ .three{
+    top: 260px;
+}
+ .four{
+    top: 360px;
+  }
+   .five{
+    top: 460px;
+}
+.six{
+    top: 560px
+}
+.bg-testimonial{
+    background-image: url(../Assets/Images/Mask\ Group\ 404.png);
+    width: 960px;
+    height: 1080px;
+}
+.testimonial-heading{
+    font-family: aceh-light;
+    font-size:  30px;
+    font-weight: 100;
+}
+#testimonial-section .container .right .card{
+display: flex;
+
+}
+#testimonial-section .container .right .card p{
+    font-size: 20px;
+    font-family: aceh-light;
+    font-weight: 100;
+}
